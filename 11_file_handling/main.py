@@ -2,20 +2,20 @@
 
 # Read a file
 #Mode is r
-with open("/Users/davemccollough/Source/python_refresh/11_file_handling/data.txt", "r") as file_object:
+with open(".../11_file_handling/data.txt", "r") as file_object:
     file_content = file_object.read()
     print(file_content)
 
 # Write file
 # Mode is w
-with open("/Users/davemccollough/Source/python_refresh/11_file_handling/data.txt", "w") as file_object:
+with open(".../11_file_handling/data.txt", "w") as file_object:
     file_object.write("So many cool mountains! \n")
     file_object.write("Here in CO! \n")
 
 
 # Appending to a file
 # mode is a
-with open("/Users/davemccollough/Source/python_refresh/11_file_handling/data.txt", "a") as file_object:
+with open(".../11_file_handling/data.txt", "a") as file_object:
     file_object.write("Front Range Fourteeners: \n")
     file_object.write("- Pikes Peak \n")
     file_object.write("- Mount Blue Sky \n")

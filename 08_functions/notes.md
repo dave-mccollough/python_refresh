@@ -16,3 +16,8 @@
       - `print("Hello " + username)`
     - to call the function
       - `user_greeting("Sarah")`
+
+- Returning a value from a function
+  - use the `return` keyword
+  - `def add(a, b):`
+    - `return a + b`

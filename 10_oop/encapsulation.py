@@ -12,4 +12,5 @@ class Employee:
 class Run:
     e = Employee()
     print(e.name)
+    # Call getter function
     print(e.show_salary())
